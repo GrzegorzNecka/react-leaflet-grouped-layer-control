@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 90vw;
+  height: 90vh;
+}
+
+.leaflet-group-control {
+  font-size: 8px;
+}
+
+.leaflet-group-control > div {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.leaflet-group-control .leaflet-group-control-layers,
+.leaflet-group-control .leaflet-control-layers-expanded .toggle {
+  display: none;
+}
+
+.leaflet-group-control .leaflet-control-layers-expanded {
+  background: transparent !important;
+}
+
+.leaflet-group-control
+  .leaflet-control-layers-expanded
+  .leaflet-group-control-layers {
+  display: block;
+}
+
+.leaflet-group-control .leaflet-group-control-layers {
+  background: transparent;
+}
+
+.leaflet-group-control
+  .leaflet-group-control-layers
+  .leaflet-control-layers-separator:first-child,
+.leaflet-group-control
+  .leaflet-group-control-layers
+  .leaflet-control-layers-separator:last-child {
+  display: none;
+}
+
+.leaflet-group-control .leaflet-control-layers label {
+  display: inherit;
+  margin-left: 0;
+}
